@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Lifesaver";
+    src: url(../LifeSavers-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+    text-align: center;
+    padding-top: 1em;
+    font-size: 3em;
+    color: rgb(224, 52, 52);
+    font-family: "Lifesaver";
+}
+
+img{
+    width: 150px;
+    padding: 10px;
+    border-radius: 9%;
+}
+
+.first-seq{
+    width: 200px;
+    padding: 30px;
+    margin: 20px auto ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    margin-right: 10px;
+}
+.buttons {
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.count{
+    text-align: center;
+    padding: 10px auto;
+    font-size: 25px;
+    color: white;
+}
+
+.btn-clear {
+    background-color: #ec4359;
+    border: 2px solid #ec4359;
+}
+.btn-clear:hover{
+    background-color: #ce354a;
+    border: 2px solid #ce354a;
+}
+
+.btn-count {
+    background-color: #16d7f1;
+    border: 2px solid #16d7f1;
+}
+.btn-count:hover{
+    background-color: #16aec2;
+    border: 2px solid #16aec2;
+}
+.btn-next {
+    background-color: #f88d13;
+    border: 2px solid #f88d13;
+}
+.btn-next:hover {
+    background-color: #d17b18;
+    border: 2px solid #d17b18;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    font-size: medium;
+    color: rgb(240, 240, 240);
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    outline: 0;
+}
